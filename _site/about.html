@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vy Nguyen - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/vn.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="works.html">works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">about</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html" target="_blank">resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- About Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Left Column: Images -->
+            <div class="col-lg-4 col-md-12 d-flex flex-column position-relative left-column mb-4">
+                <div class="image-group">
+                    <img src="images/headshot.jpeg" alt="headshot" class="img-fluid rounded-circle top-img">
+                    <img src="images/babypic.jpeg" alt="baby pic" class="img-fluid rounded-circle bottom-img">
+                </div>
+            </div>
+            <!-- Right Column: Text -->
+            <div class="col-lg-8 col-md-12 right-column">
+                <h2>who am i?</h2>
+                <p>I'm Vy Nguyen, a junior at The University of Texas at Dallas studying Computer Science with a fervent passion for all things related to design! Leading the front-end team in all of my previous projects, I have always gravitated towards the design process and have always deeply valued the user. </p>
+                <p> I just recently expanded my focus from software engineering to include design, so bear with me! 🐻 I'll be making more updates to this site over time. Despite being new, my passion for design always makes me willing to learn and grow, and I'm more than excited for the future. Thanks for stopping by!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-white py-3">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center mb-2 social-icons-container"> 
+                <div class="line me-2"></div> 
+                <a href="https://www.linkedin.com/in/vy-nguyen-86204a1b7/" target="_blank" class="social-bubble-footer mx-2">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/vypng" target="_blank" class="social-bubble-footer mx-2">
+                    <i class="fab fa-github"></i>
+                </a>
+                <div class="line ms-2"></div> 
+            </div>
+            <div>
+              <img src="images/vn_1.png" alt="Logo" width="45" height="45" class="d-inline-block align-text-top">
+            </div>
+            <p>&copy; 2024 Vy Nguyen. All rights reserved.</p>
+            <a href="mailto:vypnguyen2003@gmail.com"class="contact-link">Email Me!</a>
+        </div>
+    </footer>
+
+    <script>
+        window.addEventListener("scroll", function () {
+            var navbar = document.getElementById("mainNavbar");
+            if (window.scrollY > 50) {
+                navbar.classList.add("navbar-dark-scroll");
+            } else {
+                navbar.classList.remove("navbar-dark-scroll");
+            }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

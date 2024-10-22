@@ -1,0 +1,417 @@
+body {
+  font-family: 'Readex', sans-serif;
+  background-color: #1A181C;
+  color: white;
+  margin: 0; /* Ensure no default margin */
+}
+
+.navbar {
+  position: sticky;
+  top: 0; /* Stick to the top of the page */
+  z-index: 1000; /* Ensure the navbar stays above other content */
+  background-color: #1A181C; /* Keep the background color */
+  width: 100%;
+  height: 8vh;
+}
+
+.navbar-brand, .nav-link {
+  color: #949494 !important;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  height: 92vh; /* Full viewport height */
+  margin-top: 5vh;
+}
+
+.hero-section h1, 
+.hero-section p {
+  text-align: left;
+}
+
+.image-group img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0% !important;
+  margin-top: 8px;
+}
+
+.navbar-dark-scroll {
+  background-color: rgba(15, 14, 18) !important;
+  transition: background-color 0.5s ease;
+}
+
+
+.container {
+  max-width: 900px;
+}
+
+img.rounded-circle {
+  object-fit: cover; /* Ensures the image covers the entire circular area */
+  width: 100%; /* Ensures responsiveness */
+  height: auto;
+}
+
+.highlight {
+  background-color: #373639;
+}
+
+.tags {
+  background-color: #373639;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.proj-right-col {
+  position: relative;
+  width: 33.5vw;
+}
+
+.proj-right-col img {
+  padding-bottom: 15px;
+  width: 80%;
+  margin-left: 50px;
+}
+
+.proj-left-col {
+  position: relative;
+  width: 25vw; /* Adjust based on your image size and layout */
+}
+
+.project-header {
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+
+.highlighted-words {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 5px 15px; /* Increased spacing between words */
+  margin-bottom: 40px;
+}
+
+
+/* Container for images */
+.col-lg-4 {
+  position: relative;
+  height: 80vh; /* Adjust based on your image size and layout */
+  width: 25vw;
+  margin-top: 60px;
+}
+
+.col-lg-8 {
+  position: relative;
+  height: 80vh;
+  width: 400px; /* Adjust based on your image size and layout */
+}
+
+/* Container for images */
+.findings-left-col {
+  position: relative;
+  width: 20vw;
+}
+
+.findings-right-col {
+  position: relative;
+  width: 30vw; /* Adjust based on your image size and layout */
+  justify-content: center;
+  align-items: center;
+}
+
+
+.description-image {
+  width: 90%;
+}
+
+.findings-images {
+  margin-top: 30px;
+}
+
+.exclamation {
+  height: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.findings-left-col h5 {
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #373639; /* Highlighted top row */
+}
+td {
+  font-size: 18px;
+}
+td:first-child {
+  text-align: left; /* Left-align the first column */
+}
+
+
+
+.top-img {
+  position: relative; /* Positioning it normally within the parent */
+  width: 200px !important;
+  height: 200px !important;
+  left: 150px;
+}
+
+/* Second Image, relative to the first */
+.bottom-img {
+  position: relative;
+  width: 150px !important;
+  height: 150px !important;
+  top: 200px;  /* Adjust top/bottom values to position */
+  right: 100px; /* Adjust left/right values as needed */
+}
+
+.project-image{
+  width: 100%;
+}
+
+/* Add spacing between the two columns */
+.left-column {
+  margin-right: 30px;  /* Adjust this value to create space */
+}
+
+.image-group {
+  position: relative; /* This will make the child elements (images) positioned relative to this container */
+  display: inline-block; /* Ensures images are treated as inline blocks */
+  width: 100%;
+}
+
+/* Styles for the social media bubbles */
+.social-icons {
+  display: flex;
+  gap: 15px; /* Adds spacing between icons */
+}
+
+.social-bubble {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #525153; /* Change to any color */
+  border-radius: 50%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Remove underline */
+  color: white; /* Icon color */
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+}
+
+.social-bubble:hover {
+  background-color: #0072b1; /* Change icon color on hover */
+}
+
+.social-bubble:nth-child(2):hover {
+  background-color: #2dba4e; /* Change icon color on hover */
+}
+
+.social-bubble-footer {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: transparent; /* Change to any color */
+  border-radius: 50%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Remove underline */
+  color: white; /* Icon color */
+  font-size: 24px;
+  transition: color 0.3s ease;
+  margin-bottom: 15px; /* Adjust this value for more or less space */
+}
+
+.social-bubble-footer:hover {
+  color: #2dba4e; /* Change icon color on hover */
+}
+
+.social-bubble-footer:nth-child(2):hover {
+  color: #0072b1; /* Change icon color on hover */
+}
+
+footer {
+  position: relative; /* Position relative to allow for overlapping or fixed elements if needed */
+  bottom: 0; /* Ensure it's at the bottom */
+  width: 100%; /* Full width */
+  padding-top: 15px;
+  background-color: #0f0e12;
+}
+
+footer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0% !important;
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: #949494;
+  font-size: 12px;  
+  padding-bottom: 15px;
+}
+
+.line {
+  flex-grow: 1; /* Allow the line to grow */
+  height: 1px; /* Thickness of the line */
+  background-color: #949494; /* Color of the line */
+  margin-bottom: 10px; /* Adjust this value for more or less space */
+}
+
+.social-icons-container {
+  margin-top: 15px; /* Adjust this value for more or less space */
+}
+
+.contact-link{
+  color: white; /* White text */
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  color: white;
+}
+
+.underline {
+  text-decoration: underline;
+  margin: 0; /* Remove default margin from h4 */
+}
+
+.project-info {
+  margin-bottom: 20px; /* Space between sections */
+  font-size: 16px;
+}
+
+
+.border {
+  border: 2px solid #000; /* Customize border color and thickness */
+  border-radius: 3%;
+}
+
+h3 {
+  margin-bottom: 15px; /* Space below the header */
+}
+
+
+
+.typing {
+  display: inline-block; /* Allow width to be controlled by the animation */
+  width: 0; /* Start with a width of 0 */
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide overflow text */
+  border-right: 2px solid; /* Cursor effect */
+  text-align: left;
+}
+
+
+  /* Adjust for smaller screens */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 4vw;
+    }
+    .hero-section p {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 10vw;
+    }
+    .hero-section p {
+        font-size: 5vw;
+    }
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; } /* Expands to full text width */
+}
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: white; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .hero-section {
+      flex-direction: column; /* Stack vertically on smaller screens */
+  }
+}
+
+
+@media (max-width: 992px) {
+  .left-column, .right-column {
+      text-align: center; /* Centers the content on smaller screens */
+  }
+  .image-group {
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .top-img, .bottom-img {
+      width: 200px;
+      height: 200px;
+  }
+  .bottom-img {
+      top: 130px;
+      left: 30px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Readex';
+  src: url('../../fonts/ReadexPro-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
