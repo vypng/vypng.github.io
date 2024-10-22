@@ -129,14 +129,14 @@ h2 {
 .col-lg-4 {
   position: relative;
   height: 80vh; /* Adjust based on your image size and layout */
-  width: 25vw;
+  width: 50%;
   margin-top: 60px;
 }
 
 .col-lg-8 {
   position: relative;
   height: 80vh;
-  width: 400px; /* Adjust based on your image size and layout */
+  width: 50%;  /* Adjust based on your image size and layout */
 }
 
 /* Container for images */
@@ -207,13 +207,14 @@ td:first-child {
   right: 100px; /* Adjust left/right values as needed */
 }
 
-.project-image{
-  width: 100%;
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
 }
 
-/* Add spacing between the two columns */
-.left-column {
-  margin-right: 30px;  /* Adjust this value to create space */
+
+.project-image{
+  width: 100%;
 }
 
 .image-group {
@@ -391,11 +392,13 @@ h3 {
 @media (max-width: 992px) {
   .left-column, .right-column {
       text-align: center; /* Centers the content on smaller screens */
+      width: 100%; /* Make both columns take full width */
   }
   .image-group {
       margin-bottom: 20px;
   }
 }
+
 
 @media (max-width: 576px) {
   .top-img, .bottom-img {
