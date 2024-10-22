@@ -96,7 +96,7 @@ h2 {
 
 .proj-right-col {
   position: relative;
-  width: 33.5vw;
+  width: 50%;
 }
 
 .proj-right-col img {
@@ -107,7 +107,8 @@ h2 {
 
 .proj-left-col {
   position: relative;
-  width: 25vw; /* Adjust based on your image size and layout */
+  width: 45%;
+  margin-right: 5%;
 }
 
 .project-header {
@@ -136,7 +137,7 @@ h2 {
 .col-lg-8 {
   position: relative;
   height: 80vh;
-  width: 50%;  /* Adjust based on your image size and layout */
+  width: 45%;  /* Adjust based on your image size and layout */
 }
 
 /* Container for images */
