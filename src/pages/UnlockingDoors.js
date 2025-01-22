@@ -159,7 +159,7 @@ const UnlockingDoors = () => {
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">2</span> 
-                        <a href="#requirements" className="toc-section">Requirement Gathering</a>
+                        <a href="#requirements" className="toc-section">Requirements</a>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">3</span> 
@@ -189,7 +189,7 @@ const UnlockingDoors = () => {
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">2</span> 
-                        <a href="#requirements" className="toc-section">Requirement Gathering</a>
+                        <a href="#requirements" className="toc-section">Requirements</a>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">3</span> 
@@ -239,7 +239,7 @@ const UnlockingDoors = () => {
 
           <div id="requirements" className="section">
             <Container>
-              <h2 className="proj-section-header">02. Requirement Gathering</h2>
+              <h2 className="proj-section-header">02. Requirements</h2>
               <div className="project-section-margins">
                 <p className="left-align-details">I met with two of the database's users to discuss what needs to be improved.</p>
                 <div className="idea" style={{backgroundColor:"#DDE3F1"}}>
