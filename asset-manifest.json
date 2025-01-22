@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.839bf820.css",
-    "main.js": "/static/js/main.376268ae.js",
+    "main.js": "/static/js/main.21709a00.js",
     "static/js/488.a77142c3.chunk.js": "/static/js/488.a77142c3.chunk.js",
     "static/media/furfamily.mp4": "/static/media/furfamily.6f5df5940b12b43dbedf.mp4",
     "static/media/eduEats.mp4": "/static/media/eduEats.651d576c51106d2d3f92.mp4",
@@ -58,11 +58,11 @@
     "static/media/logo.svg": "/static/media/logo.e46266be4b05bcd3dcaee5eed1310c48.svg",
     "index.html": "/index.html",
     "main.839bf820.css.map": "/static/css/main.839bf820.css.map",
-    "main.376268ae.js.map": "/static/js/main.376268ae.js.map",
+    "main.21709a00.js.map": "/static/js/main.21709a00.js.map",
     "488.a77142c3.chunk.js.map": "/static/js/488.a77142c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.839bf820.css",
-    "static/js/main.376268ae.js"
+    "static/js/main.21709a00.js"
   ]
 }
