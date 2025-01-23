@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.839bf820.css",
-    "main.js": "/static/js/main.a8d73288.js",
+    "main.js": "/static/js/main.0d132d01.js",
     "static/js/488.a77142c3.chunk.js": "/static/js/488.a77142c3.chunk.js",
     "static/media/furfamily.mp4": "/static/media/furfamily.6f5df5940b12b43dbedf.mp4",
     "static/media/eduEats.mp4": "/static/media/eduEats.651d576c51106d2d3f92.mp4",
@@ -38,7 +38,7 @@
     "static/media/ee_ut1.png": "/static/media/ee_ut1.d0d067957d1b41b239f3.png",
     "static/media/ee_surveydata.png": "/static/media/ee_surveydata.184f0338f69f8a224445.png",
     "static/media/ud_1.png": "/static/media/ud_1.b592a02a2d5940002236.png",
-    "static/media/ud_branding.png": "/static/media/ud_branding.673cc27326ca1df7048b.png",
+    "static/media/ud_branding.png": "/static/media/ud_branding.287b887a6f229c883457.png",
     "static/media/ff_affinitydiagram.png": "/static/media/ff_affinitydiagram.997cc21f1d589d8b6de2.png",
     "static/media/babypic2.png": "/static/media/babypic2.3394dcb841f9fe4cc38b.png",
     "static/media/ff_wireframes.png": "/static/media/ff_wireframes.a23e32acb77f2569f5b6.png",
@@ -58,11 +58,11 @@
     "static/media/logo.svg": "/static/media/logo.e46266be4b05bcd3dcaee5eed1310c48.svg",
     "index.html": "/index.html",
     "main.839bf820.css.map": "/static/css/main.839bf820.css.map",
-    "main.a8d73288.js.map": "/static/js/main.a8d73288.js.map",
+    "main.0d132d01.js.map": "/static/js/main.0d132d01.js.map",
     "488.a77142c3.chunk.js.map": "/static/js/488.a77142c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.839bf820.css",
-    "static/js/main.a8d73288.js"
+    "static/js/main.0d132d01.js"
   ]
 }
