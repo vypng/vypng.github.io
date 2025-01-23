@@ -34,7 +34,12 @@ export const NavBar = () => {
   }, []);
 
   const handleNavigation = (hash) => {
-    navigate(`/${hash}`);
+    const section = document.querySelector(hash);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    } else {
+      navigate(hash);
+    }
   };
 
   const onUpdateActiveLink = (value) => {

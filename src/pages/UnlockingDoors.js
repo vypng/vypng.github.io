@@ -246,7 +246,7 @@ const UnlockingDoors = () => {
                   <p>The current database interface is grey and old-fashioned.</p>
                   <div style={{paddingBottom: "20px", paddingLeft: "20px", paddingRight: "20px"}}>
                     <img src={lightbulb} alt="Lightbulb icon"/>
-                    Modernize the interface and choose a higher-contrast palette.
+                    Modernize the interface and choose a higher-contrast color palette.
                   </div>
                 </div>
                 <div className="idea" style={{backgroundColor:"#DDE3F1"}}>

@@ -7,10 +7,28 @@ import { Banner } from "./components/Banner";
 import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 import EduEats from "./pages/EduEats";
 import FurFamily from "./pages/FurFamily";
 import UnlockingDoors from "./pages/UnlockingDoors";
+
+
+function ScrollToHash() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
+  return null;
+}
 
 function App() {
   return (
