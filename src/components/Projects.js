@@ -58,22 +58,12 @@ export const Projects = () => {
                               className="project-image"
                             />
                             <h5
-                              style={{
-                                fontSize: "1.8rem",
-                                fontFamily: 'Metropolis-Bold',
-                                margin: "25px 0 0 0",
-                              }}
+                              className="project-title"
                             >
                               {project.title}
                             </h5>
                             <p
-                              style={{
-                                width: "80%",
-                                fontSize: "1rem",
-                                color: "black",
-                                margin: "0 auto",
-                                letterSpacing: "normal",
-                              }}
+                              className="project-description"
                             >
                               {project.description}
                             </p>

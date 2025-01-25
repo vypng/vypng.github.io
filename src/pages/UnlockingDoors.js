@@ -65,7 +65,7 @@ const UnlockingDoors = () => {
           <Row className="project-header">
             {/* First Column for Title */}
             <Col md={3} className="project-title-col">
-              <h5 style={{marginTop: "100px"}}>UNLOCKING DOORS WEB DESIGN</h5>
+              <h5 className="project-intro">UNLOCKING DOORS WEB DESIGN</h5>
               <h1 className="project-main-title">Rebuilding Lives</h1>
             </Col>
 
@@ -107,6 +107,7 @@ const UnlockingDoors = () => {
             <Col 
               md={9} 
               ref={scrollContainerRef}
+              className="carousel-positioning"
               style={{
                 overflowX: 'scroll',
                 whiteSpace: 'nowrap',
@@ -115,7 +116,7 @@ const UnlockingDoors = () => {
                 position: 'relative',
                 paddingLeft: '30px',
                 paddingTop: '40px',
-                marginBottom: '100px'
+                marginBottom: '100px'              
               }}
               onMouseDown={handleMouseDown}
               onMouseMove={handleMouseMove}
@@ -326,8 +327,8 @@ const UnlockingDoors = () => {
                 <h5 class="feature-title">Rounded Corners</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                    <video autoPlay loop muted>
-                    <source src={GPSFeature} type="video/mp4" />
+                  <video autoPlay loop muted playsinline>
+                  <source src={GPSFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -347,7 +348,7 @@ const UnlockingDoors = () => {
                     </div>
                   </div>
                   <div className="right-column">
-                    <video autoPlay loop muted>
+                    <video autoPlay loop muted playsinline>
                     <source src={MealsFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -358,8 +359,8 @@ const UnlockingDoors = () => {
                 <h5 class="feature-title">Accessing Discreet Support</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                    <video autoPlay loop muted>
-                    <source src={SupportFeature} type="video/mp4" />
+                  <video autoPlay loop muted playsinline>
+                  <source src={SupportFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -391,7 +392,7 @@ const UnlockingDoors = () => {
                 View the final product demo below! You can read more about the project <a href="https://github.com/UTDallasEPICS/Unlocking-Doors" target="_blank" rel="noopener noreferrer">here</a>.
                 </p>
                 <div className="video-container">
-                  <video autoPlay loop muted style={{height: "1000px"}}>
+                  <video autoPlay loop muted playsinline style={{height: "1000px"}}>
                       <source src={Demo} type="video/mp4" className="demo"/>
                         Your browser does not support the video tag.
                   </video>

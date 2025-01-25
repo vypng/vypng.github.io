@@ -8,7 +8,6 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" style={{ width: '50px', height: 'auto' , padding: '5px'}} />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
                   <div

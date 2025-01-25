@@ -80,7 +80,7 @@ const FurFamily = () => {
           <Row className="project-header">
             {/* First Column for Title */}
             <Col md={3} className="project-title-col">
-              <h5 style={{marginTop: "100px"}}>FURFAMILY APP DESIGN</h5>
+              <h5 className="project-intro">FURFAMILY APP DESIGN</h5>
               <h1 className="project-main-title">Train Smarter, Love Deeper.</h1>
             </Col>
 
@@ -120,6 +120,7 @@ const FurFamily = () => {
             <Col 
               md={9} 
               ref={scrollContainerRef}
+              className="carousel-positioning"
               style={{
                 overflowX: 'scroll',
                 whiteSpace: 'nowrap',
@@ -421,8 +422,8 @@ const FurFamily = () => {
                 <h5 class="feature-title">Daily Challenges</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                    <video autoPlay loop muted>
-                    <source src={ChallengesFeature} type="video/mp4" />
+                  <video autoPlay loop muted playsinline>
+                  <source src={ChallengesFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -442,8 +443,8 @@ const FurFamily = () => {
                     </div>                  
                     </div>
                   <div className="right-column">
-                    <video autoPlay loop muted>
-                    <source src={TrainingFeature} type="video/mp4" />
+                  <video autoPlay loop muted playsinline>
+                  <source src={TrainingFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -453,8 +454,8 @@ const FurFamily = () => {
                 <h5 class="feature-title">Community Forum</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                    <video autoPlay loop muted>
-                    <source src={CommunityFeature} type="video/mp4" />
+                  <video autoPlay loop muted playsinline>
+                  <source src={CommunityFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -474,8 +475,8 @@ const FurFamily = () => {
                     </div>      
                     </div>
                   <div className="right-column">
-                    <video autoPlay loop muted>
-                    <source src={CalendarFeature} type="video/mp4" />
+                  <video autoPlay loop muted playsinline>
+                  <source src={CalendarFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -484,8 +485,8 @@ const FurFamily = () => {
                 <h5 class="feature-title">Household Feature</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                    <video autoPlay loop muted>
-                    <source src={HouseholdFeature} type="video/mp4" />
+                  <video autoPlay loop muted playsinline>
+                  <source src={HouseholdFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -515,7 +516,7 @@ const FurFamily = () => {
               <div className="project-section-margins">
                 <p>View the final product demo below!</p>
                 <div className="video-container">
-                  <video autoPlay loop muted style={{height: "1000px"}}>
+                  <video autoPlay loop muted playsinline style={{height: "1000px"}}>
                       <source src={Demo} type="video/mp4" className="demo"/>
                         Your browser does not support the video tag.
                   </video>

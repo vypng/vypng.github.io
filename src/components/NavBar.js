@@ -10,7 +10,6 @@ export const NavBar = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Scroll to the correct section when the location changes
   useEffect(() => {
     if (location.hash) {
       const section = document.querySelector(location.hash);
@@ -56,11 +55,11 @@ export const NavBar = () => {
             style={{ width: "50px", height: "auto", padding: "10px" }}
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" bg="dark" variant="dark">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto text-end">
             {/* About Section */}
             <Nav.Link
               href="/#about"

@@ -72,7 +72,7 @@ const EduEats = () => {
           <Row className="project-header">
             {/* First Column for Title */}
             <Col md={3} className="project-title-col">
-              <h5 style={{marginTop: "100px"}}>EDUEATS APP DESIGN</h5>
+              <h5 className="project-intro">EDUEATS APP DESIGN</h5>
               <h1 className="project-main-title">Addressing College Food Insecurity</h1>
             </Col>
 
@@ -113,6 +113,7 @@ const EduEats = () => {
             <Col 
               md={9} 
               ref={scrollContainerRef}
+              className="carousel-positioning"
               style={{
                 overflowX: 'scroll',
                 whiteSpace: 'nowrap',
@@ -220,7 +221,7 @@ const EduEats = () => {
               <h2 className="proj-section-header">01. The Area of Concern</h2>
               <div className="project-section-margins">
                 <div className="left-align-details">From a recent survey done at my university...</div>
-                <p className="center-details" style={{fontSize: "22px"}}>
+                <p className="center-details">
                   Out of 100 students surveyed, “27% respondents said they had to<span> </span>
                   <span className="highlight"><span className="bold-highlight" style={{color:"#365E32"}}>cut the size of their meals or skip meals</span></span> <span> </span>
                   in the last 30 days because <span> </span>
@@ -391,7 +392,7 @@ const EduEats = () => {
                 <h5 class="feature-title">Locating Food Assistance</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                    <video autoPlay loop muted>
+                    <video autoPlay loop muted playsinline>
                     <source src={GPSFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -412,7 +413,7 @@ const EduEats = () => {
                     </div>
                   </div>
                   <div className="right-column">
-                    <video autoPlay loop muted>
+                    <video autoPlay loop muted playsinline>
                     <source src={MealsFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -423,7 +424,7 @@ const EduEats = () => {
                 <h5 class="feature-title">Accessing Discreet Support</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                    <video autoPlay loop muted>
+                    <video autoPlay loop muted playsinline>
                     <source src={SupportFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -454,7 +455,7 @@ const EduEats = () => {
               <div className="project-section-margins">
                 <p>View the final product demo below!</p>
                 <div className="video-container">
-                  <video autoPlay loop muted style={{height: "1000px"}}>
+                  <video autoPlay loop muted playsinline style={{height: "1000px"}}>
                       <source src={Demo} type="video/mp4" className="demo"/>
                         Your browser does not support the video tag.
                   </video>
