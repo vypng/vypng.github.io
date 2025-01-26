@@ -13,10 +13,11 @@ import CurrentPages from "../assets/img/ud_current.png";
 import Website from "../assets/img/ud_website.png";
 import Branding from "../assets/img/ud_branding.png";
 import Prototypes from "../assets/img/ud_prototypes.png"
-import GPSFeature from "../assets/videos/GPS_Feature.mp4";
-import MealsFeature from "../assets/videos/Meals_Feature.mp4";
-import SupportFeature from "../assets/videos/Support_Feature.mp4";
-import Demo from "../assets/videos/eduEats.mp4";
+import Filtering from "../assets/img/filtering-system.png";
+import BrandConsistency from "../assets/img/brand-consistency.png";
+import RoundedCorners from "../assets/img/rounded-corners.png";
+import Demo from "../assets/videos/UnlockingDoors.mp4";
+import { Filter } from "react-bootstrap-icons";
 
 
 
@@ -327,10 +328,7 @@ const UnlockingDoors = () => {
                 <h5 class="feature-title">Rounded Corners</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                  <video autoPlay loop muted playsinline>
-                  <source src={GPSFeature} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
+                  <img src={RoundedCorners} alt="Rounding corners"/>
                   </div>
                   <div className="right-column">
                     <div className="centered-text">
@@ -340,18 +338,15 @@ const UnlockingDoors = () => {
                 </div>
 
 
-                <h5 class="feature-title" style={{textAlign: "right"}}>Finding Healthy & Affordable Meals</h5>
+                <h5 class="feature-title" style={{textAlign: "right"}}>Ensuring Brand Consistency</h5>
                 <div className="two-column-section">
                   <div className="left-column">
                     <div className="centered-text">
-                    The meal finder makes it simple to discover budget-friendly and nutritious recipes tailored to your pantry and preferences. It allows students to save money while enjoying healthy, satisfying meals.                    
+                      Using the organization's original, high-contrast color palette allows the database to be professional, cohesive, and easy-on-the-eyes.
                     </div>
                   </div>
                   <div className="right-column">
-                    <video autoPlay loop muted playsinline>
-                    <source src={MealsFeature} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
+                  <img src={BrandConsistency} alt="Brand consistency"/>
                   </div>
                 </div>
 
@@ -359,24 +354,14 @@ const UnlockingDoors = () => {
                 <h5 class="feature-title">Accessing Discreet Support</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                  <video autoPlay loop muted playsinline>
-                  <source src={SupportFeature} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
+                  <img src={Filtering} alt="Filtering system"/>
                   </div>
                   <div className="right-column">
                     <div className="centered-text">
-                    The connect feature creates a supportive space for students to discuss food insecurity, share meal tips, and exchange advice on accessing resources. It’s a platform designed to foster understanding and empowerment through shared experiences.                    
-                    </div>
+                    The filtering system streamlines contact management by allowing users to quickly sort and find information using tags and groups.                    </div>
                   </div>
                 </div>
 
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "150px"}}>Platform Choice</h5>
-                <div>Why a mobile app? The features that users asked for, 
-                  such as location services, would be more intuitive and 
-                  user-friendly on a mobile device as opposed to a desktop 
-                  application.
-                </div>  
                             
               </div>
             </Container>
@@ -392,7 +377,7 @@ const UnlockingDoors = () => {
                 View the final product demo below! You can read more about the project <a href="https://github.com/UTDallasEPICS/Unlocking-Doors" target="_blank" rel="noopener noreferrer">here</a>.
                 </p>
                 <div className="video-container">
-                  <video autoPlay loop muted playsinline style={{height: "1000px"}}>
+                  <video autoPlay loop muted webkit-playsinline playsinline style={{height: "1000px"}}>
                       <source src={Demo} type="video/mp4" className="demo"/>
                         Your browser does not support the video tag.
                   </video>

@@ -422,7 +422,7 @@ const FurFamily = () => {
                 <h5 class="feature-title">Daily Challenges</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                  <video autoPlay loop muted playsinline>
+                  <video autoPlay loop muted webkit-playsinline playsinline>
                   <source src={ChallengesFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -443,7 +443,7 @@ const FurFamily = () => {
                     </div>                  
                     </div>
                   <div className="right-column">
-                  <video autoPlay loop muted playsinline>
+                  <video autoPlay loop muted webkit-playsinline playsinline>
                   <source src={TrainingFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -454,7 +454,7 @@ const FurFamily = () => {
                 <h5 class="feature-title">Community Forum</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                  <video autoPlay loop muted playsinline>
+                  <video autoPlay loop muted webkit-playsinline playsinline>
                   <source src={CommunityFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -475,7 +475,7 @@ const FurFamily = () => {
                     </div>      
                     </div>
                   <div className="right-column">
-                  <video autoPlay loop muted playsinline>
+                  <video autoPlay loop muted webkit-playsinline playsinline>
                   <source src={CalendarFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -485,7 +485,7 @@ const FurFamily = () => {
                 <h5 class="feature-title">Household Feature</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                  <video autoPlay loop muted playsinline>
+                  <video autoPlay loop muted webkit-playsinline playsinline>
                   <source src={HouseholdFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -516,7 +516,7 @@ const FurFamily = () => {
               <div className="project-section-margins">
                 <p>View the final product demo below!</p>
                 <div className="video-container">
-                  <video autoPlay loop muted playsinline style={{height: "1000px"}}>
+                  <video autoPlay loop muted webkit-playsinline playsinline style={{height: "1000px"}}>
                       <source src={Demo} type="video/mp4" className="demo"/>
                         Your browser does not support the video tag.
                   </video>
