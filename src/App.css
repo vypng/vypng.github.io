@@ -486,7 +486,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project-intro {
-  margin-top: 13.69vh;
+  margin-top: 100px;
 }
 
 @media (max-width: 768px) {
@@ -779,6 +779,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .chatbox.ninth {
   align-self: flex-start;
   background-image: url('assets/img/chatbox9.png');
+}
+
+.chatbox.tenth {
+  align-self: flex-start;
+  background-image: url('assets/img/chatbox10.png');
+}
+
+.chatbox.eleventh {
+  align-self: flex-end;
+  text-align: right;
+  background-position: right;  
+  background-image: url('assets/img/chatbox11.png');
+}
+
+.chatbox.twelfth {
+  align-self: flex-start;
+  background-image: url('assets/img/chatbox12.png');
 }
 
 .chatbox-image {

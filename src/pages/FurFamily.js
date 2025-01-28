@@ -332,7 +332,7 @@ const FurFamily = () => {
               <div className="project-section-margins">
                 <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Wireframing</h5>
                 <div>I used a rough set of wireframes to perform usability testing.
-                <img src={Wireframes} style={{marginTop: "30px"}} alt="Affinity diagram of quotes taken from interviews"/>
+                <img src={Wireframes} style={{marginTop: "30px"}} alt="Wireframes used for usability testing"/>
                 <p className="description-text">Low-fidelity wireframes used for usability testing.</p>
                 </div>
 

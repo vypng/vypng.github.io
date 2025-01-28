@@ -12,6 +12,7 @@ import { useLocation } from "react-router-dom";
 
 import EduEats from "./pages/EduEats";
 import FurFamily from "./pages/FurFamily";
+import ShopShare from "./pages/Shop&Share";
 import UnlockingDoors from "./pages/UnlockingDoors";
 
 
@@ -55,6 +56,7 @@ function App() {
 
           <Route path="/eduEats" element={<EduEats />} />
           <Route path="/furfamily" element={<FurFamily />} />
+          <Route path="/shop-share" element={<ShopShare />} />
           <Route path="/unlocking-doors" element={<UnlockingDoors />} />
         </Routes>
       </div>

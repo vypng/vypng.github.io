@@ -84,6 +84,7 @@ const UnlockingDoors = () => {
                 <h5 className="project-subheading">ROLE</h5>
                 <p className="project-text">UX Researcher</p>
                 <p className="project-text">UI/UX Designer</p>
+                <p className="project-text">Front-End Developer</p>
               </div>
             </Col>
 
