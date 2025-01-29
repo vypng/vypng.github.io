@@ -392,7 +392,7 @@ const EduEats = () => {
                 <h5 class="feature-title">Locating Food Assistance</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                    <video autoPlay loop muted webkit-playsinline playsinline>
+                    <video autoPlay loop muted webkit-playsinline playsinline controls={false}>
                     <source src={GPSFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -413,7 +413,7 @@ const EduEats = () => {
                     </div>
                   </div>
                   <div className="right-column">
-                    <video autoPlay loop muted webkit-playsinline playsinline>
+                    <video autoPlay loop muted webkit-playsinline playsinline controls={false}> 
                     <source src={MealsFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -424,7 +424,7 @@ const EduEats = () => {
                 <h5 class="feature-title">Accessing Discreet Support</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                    <video autoPlay loop muted webkit-playsinline playsinline>
+                    <video autoPlay loop muted webkit-playsinline playsinline controls={false}>
                     <source src={SupportFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -455,7 +455,7 @@ const EduEats = () => {
               <div className="project-section-margins">
                 <p>View the final product demo below!</p>
                 <div className="video-container">
-                  <video autoPlay loop muted playsinline style={{height: "1000px"}}>
+                  <video autoPlay loop muted playsinline controls={false} style={{height: "1000px"}}>
                       <source src={Demo} type="video/mp4" className="demo"/>
                         Your browser does not support the video tag.
                   </video>

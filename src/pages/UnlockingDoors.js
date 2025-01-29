@@ -378,7 +378,7 @@ const UnlockingDoors = () => {
                 View the final product demo below! You can read more about the project <a href="https://github.com/UTDallasEPICS/Unlocking-Doors" target="_blank" rel="noopener noreferrer">here</a>.
                 </p>
                 <div className="video-container">
-                  <video autoPlay loop muted webkit-playsinline playsinline style={{height: "1000px"}}>
+                  <video autoPlay loop muted webkit-playsinline playsinline controls={false} style={{height: "1000px"}}>
                       <source src={Demo} type="video/mp4" className="demo"/>
                         Your browser does not support the video tag.
                   </video>
