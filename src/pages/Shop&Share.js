@@ -324,7 +324,7 @@ const ShopShare = () => {
                 <h5 class="feature-title">Dietary Restrictions</h5>
                 <div className="two-column-section">
                   <div className="left-column">
-                  <video autoPlay loop muted webkit-playsinline playsinline controls={false}>
+                  <video autoPlay loop muted webkit-playsinline playsInline controls={false}>
                   <source src={DietaryRestrictionFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -345,7 +345,7 @@ const ShopShare = () => {
                     </div>                  
                     </div>
                   <div className="right-column">
-                  <video autoPlay loop muted webkit-playsinline playsinline controls={false}>
+                  <video autoPlay loop muted webkit-playsinline playsInline controls={false}>
                   <source src={ListsFeature} type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
@@ -364,7 +364,7 @@ const ShopShare = () => {
               <div className="project-section-margins">
                 <p>View the final product demo below! You can read more about the project <a href="https://github.com/acm-projects/Shop-and-Share" target="_blank" rel="noopener noreferrer">here</a>.</p>
                 <div className="video-container">
-                  <video autoPlay loop muted webkit-playsinline playsinline controls={false} style={{height: "1000px"}}>
+                  <video autoPlay loop muted webkit-playsinline playsInline controls={false} style={{height: "1000px"}}>
                       <source src={Demo} type="video/mp4" className="demo"/>
                         Your browser does not support the video tag.
                   </video>
