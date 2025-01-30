@@ -337,7 +337,7 @@ const FurFamily = () => {
                 </div>
 
                 <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "130px"}}>Testing</h5>
-                <div>I asked and two students to test my app and observed as they performed certain tasks.
+                <div>I asked two students to test my app and observed as they performed certain tasks.
                 </div>
 
                 <div className="yellow-box">
