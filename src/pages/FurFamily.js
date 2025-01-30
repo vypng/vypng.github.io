@@ -392,9 +392,8 @@ const FurFamily = () => {
 
 
                 <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "130px"}}>Brand Identity</h5>
-                <div>I wanted the app to have a fun yet professional look 
-                  while maintaining the appearance a health-focused app. 
-                  I created a mood board to begin designing my app’s brand identity.
+                <div>I wanted my app to be playful and friendly yet simple - just how raising a new dog should be.
+                  I created a mood board and began developing my app's brand identity.
                 </div>
                 <img src={Moodboard} alt="Moodboard" style={{marginTop: '30px'}}/>
                 <p className="description-text">Clean, simple moodboard.</p>

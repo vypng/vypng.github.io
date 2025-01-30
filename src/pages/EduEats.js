@@ -361,7 +361,7 @@ const EduEats = () => {
 
                 <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "130px"}}>Brand Identity</h5>
                 <div>I wanted the app to have a fun yet professional look 
-                  while maintaining the appearance a health-focused app. 
+                  while maintaining the appearance of a health-focused app. 
                   I created a mood board to begin designing my app’s brand identity.
                 </div>
                 <img src={Moodboard} alt="Moodboard" style={{marginTop: '30px'}}/>
