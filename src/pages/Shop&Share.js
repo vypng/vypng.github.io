@@ -266,7 +266,7 @@ const ShopShare = () => {
                 <p style={{marginTop: "150px", marginBottom: "40px"}}>I narrowed down my research to identify what students needed the most.</p>
                 <div class="chat-container">
                   <div class="chatbox tenth">
-                    <p class="chatbox-text-left">I want to keep my grocery lists in one place</p>
+                    <p class="chatbox-text-left">I want to keep my grocery lists in one place.</p>
                   </div>
                   <div class="chatbox eleventh">
                     <p class="chatbox-text-right">How can I remember all my roommates' dietary restrictions?</p>
@@ -295,7 +295,7 @@ const ShopShare = () => {
                 </div>
 
                 <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Moodboard</h5>
-                <div>I then compiled a moodboard for our app Our team decided on black, purple, and white as our color palette to create a modern, inviting, and visually appealing interface.
+                <div>I then compiled a moodboard for our app. Our team decided on black, purple, and white as our color palette to create a modern, inviting, and visually appealing interface.
                 <img src={Moodboard} style={{marginTop: "30px"}} alt="Moodboard for Shop&Share"/>
                 <p className="description-text">Moodboard for Shop&Share.</p>
                 </div>
