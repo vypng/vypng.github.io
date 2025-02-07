@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d8d25570.css",
-    "main.js": "/static/js/main.316d5cb1.js",
+    "main.js": "/static/js/main.df2a99de.js",
     "static/js/488.a77142c3.chunk.js": "/static/js/488.a77142c3.chunk.js",
     "static/media/furfamily.mp4": "/static/media/furfamily.6f5df5940b12b43dbedf.mp4",
     "static/media/eduEats.mp4": "/static/media/eduEats.651d576c51106d2d3f92.mp4",
@@ -18,12 +18,12 @@
     "static/media/Meals_Feature.mp4": "/static/media/Meals_Feature.552e2497e955837ed50a.mp4",
     "static/media/DietaryRestrictions.mp4": "/static/media/DietaryRestrictions.112fe490375060fbe38e.mp4",
     "static/media/furfamily2.png": "/static/media/furfamily2.9829f17cdccb0e0f6257.png",
-    "static/media/ee_moodboard.png": "/static/media/ee_moodboard.5a934b05b0a0ccbf0761.png",
     "static/media/furfamily4.png": "/static/media/furfamily4.3ca0263a3f3d226a7cd0.png",
     "static/media/eduEats3.png": "/static/media/eduEats3.422ec61cade9b7d15134.png",
     "static/media/eduEats4.png": "/static/media/eduEats4.6e3e51ae8d67bec5baae.png",
     "static/media/furfamily1.png": "/static/media/furfamily1.486ff8420131e2e7f375.png",
     "static/media/eduEats1.png": "/static/media/eduEats1.56dafd26f557633cc7ef.png",
+    "static/media/ee_moodboard.png": "/static/media/ee_moodboard.fcf1b063b1bdca11917f.png",
     "static/media/furfamily3.png": "/static/media/furfamily3.dd2e7850256ac16b9932.png",
     "static/media/ee_affinitydiagram.png": "/static/media/ee_affinitydiagram.c925655170df42fc6143.png",
     "static/media/Support_Feature.mp4": "/static/media/Support_Feature.1e87d2b7cb2a4309c993.mp4",
@@ -47,12 +47,12 @@
     "static/media/ee_surveydata.png": "/static/media/ee_surveydata.184f0338f69f8a224445.png",
     "static/media/ud_1.png": "/static/media/ud_1.b592a02a2d5940002236.png",
     "static/media/ud_branding.png": "/static/media/ud_branding.287b887a6f229c883457.png",
+    "static/media/ud_prototypes.png": "/static/media/ud_prototypes.554bf2e48b71bf2d8ec8.png",
     "static/media/ff_affinitydiagram.png": "/static/media/ff_affinitydiagram.997cc21f1d589d8b6de2.png",
     "static/media/babypic2.png": "/static/media/babypic2.3394dcb841f9fe4cc38b.png",
     "static/media/ff_wireframes.png": "/static/media/ff_wireframes.a23e32acb77f2569f5b6.png",
     "static/media/brand-consistency.png": "/static/media/brand-consistency.898c7d138f2dcc20a6e3.png",
     "static/media/ee_branding.png": "/static/media/ee_branding.3a9dbaacfa79f4ec517a.png",
-    "static/media/ud_prototypes.png": "/static/media/ud_prototypes.b4f7587b96b8da2f9bc7.png",
     "static/media/ss_4.png": "/static/media/ss_4.0a0b1e784e8439246a5f.png",
     "static/media/ff_branding.png": "/static/media/ff_branding.c96e8f9b59b9e1784185.png",
     "static/media/babypic1.png": "/static/media/babypic1.ddae76bc50532f0b8a42.png",
@@ -75,11 +75,11 @@
     "static/media/logo.svg": "/static/media/logo.e46266be4b05bcd3dcaee5eed1310c48.svg",
     "index.html": "/index.html",
     "main.d8d25570.css.map": "/static/css/main.d8d25570.css.map",
-    "main.316d5cb1.js.map": "/static/js/main.316d5cb1.js.map",
+    "main.df2a99de.js.map": "/static/js/main.df2a99de.js.map",
     "488.a77142c3.chunk.js.map": "/static/js/488.a77142c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8d25570.css",
-    "static/js/main.316d5cb1.js"
+    "static/js/main.df2a99de.js"
   ]
 }

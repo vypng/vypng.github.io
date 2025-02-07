@@ -352,7 +352,7 @@ const UnlockingDoors = () => {
                 </div>
 
 
-                <h5 class="feature-title">Accessing Discreet Support</h5>
+                <h5 class="feature-title">Filtering System</h5>
                 <div className="two-column-section">
                   <div className="left-column">
                   <img src={Filtering} alt="Filtering system"/>
