@@ -322,7 +322,7 @@ const UnlockingDoors = () => {
               <div className="project-section-margins">
                 <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Problem Statement</h5>
                 <div>When an Unlocking Doors employee is using their organization's database to
-                    view and find a contact for a client, they want to so easily and efficiently 
+                    view and find a contact for a client, they want to do so easily and efficiently 
                     throughout the day without straining their eyes.
                 </div>  
 
