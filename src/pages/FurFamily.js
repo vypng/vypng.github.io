@@ -15,7 +15,6 @@ import Bulb from "../assets/img/bulb.png";
 import Exclamation from "../assets/img/exclamation.png";
 import Testing1 from "../assets/img/ff_ut1.png";
 import Testing2 from "../assets/img/ff_ut2.png";
-import Moodboard from "../assets/img/ff_moodboard.png";
 import Branding from "../assets/img/ff_branding.png";
 import ChallengesFeature from "../assets/videos/Challenges_Feature.mp4";
 import TrainingFeature from "../assets/videos/Training_Feature.mp4";
@@ -393,10 +392,7 @@ const FurFamily = () => {
 
                 <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "130px"}}>Brand Identity</h5>
                 <div>I wanted my app to be playful and friendly yet simple - just how raising a new dog should be.
-                  I created a mood board and began developing my app's brand identity.
                 </div>
-                <img src={Moodboard} alt="Moodboard" style={{marginTop: '30px'}}/>
-                <p className="description-text">Clean, simple moodboard.</p>
                 <img src={Branding} alt="Style guide including logos and brand colors" style={{marginTop: '30px'}}/>
                 <p className="description-text">Style guide for furfamily.</p>
 
@@ -411,12 +407,6 @@ const FurFamily = () => {
             <Container>
               <h2 className="proj-section-header">04. The Solution</h2>
               <div className="project-section-margins">
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Problem Statement</h5>
-                <div>When a pet owner is struggling with raising their pets, 
-                  they need accessible tools and guidance to strengthen 
-                  their bond, ensure their pet’s well-being, and reduce
-                  common frustrations throughout the process.
-                </div>  
 
                 <h5 class="feature-title">Daily Challenges</h5>
                 <div className="two-column-section">

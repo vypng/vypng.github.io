@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import HealthBankOne from "../assets/img/HealthBankOne.png";
 import eduEats from "../assets/img/eduEats.png";
 import furfamily from "../assets/img/furfamily.png";
 import UnlockingDoors from "../assets/img/UnlockingDoors.png";
@@ -9,6 +10,12 @@ import { Link } from "react-router-dom";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Health Bank One",
+      description: "Helping patients gain control of their medical records.",
+      imgUrl: HealthBankOne,
+      link: "/health-bank-one",
+    },
     {
       title: "eduEats",
       description: "Student-focused app that combats food insecurity.",

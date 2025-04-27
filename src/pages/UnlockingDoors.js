@@ -307,7 +307,6 @@ const UnlockingDoors = () => {
                 <div>I aligned items, organized information into three pages accessible in the upper bar, and used the brand's style guide to improve on the previous design.
                 <img src={Prototypes} style={{marginTop: "30px"}} alt="Unlocking Doors Website"/>
                 <p className="description-text">Prototypes presented to organization.</p>
-                Upon presenting these designs, little to no improvements were mentioned and the application's users were satisfied with the new interface!
                 </div>
                                 
               </div>            
@@ -320,11 +319,6 @@ const UnlockingDoors = () => {
             <Container>
               <h2 className="proj-section-header">04. The Solution</h2>
               <div className="project-section-margins">
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Problem Statement</h5>
-                <div>When an Unlocking Doors employee is using their organization's database to
-                    view and find a contact for a client, they want to do so easily and efficiently 
-                    throughout the day without straining their eyes.
-                </div>  
 
                 <h5 class="feature-title">Rounded Corners</h5>
                 <div className="two-column-section">

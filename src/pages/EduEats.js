@@ -16,7 +16,6 @@ import Bulb from "../assets/img/bulb.png";
 import Exclamation from "../assets/img/exclamation.png";
 import Testing1 from "../assets/img/ee_ut1.png";
 import Testing2 from "../assets/img/ee_ut2.png";
-import Moodboard from "../assets/img/ee_moodboard.png";
 import Branding from "../assets/img/ee_branding.png";
 import GPSFeature from "../assets/videos/GPS_Feature.mp4";
 import MealsFeature from "../assets/videos/Meals_Feature.mp4";
@@ -299,14 +298,9 @@ const EduEats = () => {
             <Container>
               <h2 className="proj-section-header">03. Ideation & Design</h2>
               <div className="project-section-margins">
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Wireframing</h5>
-                <div>I used a rough set of wireframes to perform usability testing.
-                <img src={Wireframes} style={{marginTop: "30px"}} alt="Affinity diagram of quotes taken from interviews"/>
-                <p className="description-text">Low-fidelity wireframes used for usability testing.</p>
-                </div>
 
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "130px"}}>Testing</h5>
-                <div>I asked two students to test my app and observed as they performed certain tasks.
+                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "130px"}}>Wireframes & Testing</h5>
+                <div>Using a set of low-fidelity wireframes, I asked two students to test my app and observed as they performed certain tasks.
                 </div>
 
                 <div className="yellow-box">
@@ -362,10 +356,7 @@ const EduEats = () => {
                 <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "130px"}}>Brand Identity</h5>
                 <div>I wanted the app to have a fun yet professional look 
                   while maintaining the appearance of a health-focused app. 
-                  I created a mood board to begin designing my app’s brand identity.
                 </div>
-                <img src={Moodboard} alt="Moodboard" style={{marginTop: '30px'}}/>
-                <p className="description-text">Calming, health-focused moodboard.</p>
                 <img src={Branding} alt="Style guide including logos and brand colors" style={{marginTop: '30px'}}/>
                 <p className="description-text">Style guide for eduEats.</p>
 
@@ -380,14 +371,6 @@ const EduEats = () => {
             <Container>
               <h2 className="proj-section-header">04. The Solution</h2>
               <div className="project-section-margins">
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Problem Statement</h5>
-                <div>When a college student is facing food insecurity and 
-                  struggling to manage their limited financial resources, 
-                  they want to find a reliable and accessible way to locate food 
-                  assistance resources, find healthy yet affordable meals, and find 
-                  support from others so they can reduce stress, ensure they have 
-                  access to proper nutrition, and focus on their academic career.
-                </div>  
 
                 <h5 class="feature-title">Locating Food Assistance</h5>
                 <div className="two-column-section">

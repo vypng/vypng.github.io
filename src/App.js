@@ -14,6 +14,7 @@ import EduEats from "./pages/EduEats";
 import FurFamily from "./pages/FurFamily";
 import ShopShare from "./pages/Shop&Share";
 import UnlockingDoors from "./pages/UnlockingDoors";
+import HealthBankOne from "./pages/HealthBankOne";
 
 
 function ScrollToHash() {
@@ -58,6 +59,7 @@ function App() {
           <Route path="/furfamily" element={<FurFamily />} />
           <Route path="/shop-share" element={<ShopShare />} />
           <Route path="/unlocking-doors" element={<UnlockingDoors />} />
+          <Route path="/health-bank-one" element={<HealthBankOne />} />
         </Routes>
       </div>
     </Router>

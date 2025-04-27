@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d8d25570.css",
-    "main.js": "/static/js/main.33ce2c9d.js",
+    "main.js": "/static/js/main.508e6603.js",
     "static/js/488.a77142c3.chunk.js": "/static/js/488.a77142c3.chunk.js",
     "static/media/furfamily.mp4": "/static/media/furfamily.6f5df5940b12b43dbedf.mp4",
     "static/media/eduEats.mp4": "/static/media/eduEats.651d576c51106d2d3f92.mp4",
-    "static/media/ff_moodboard.png": "/static/media/ff_moodboard.94911c48ed61850f784c.png",
     "static/media/bean_adult.png": "/static/media/bean_adult.a33e566832feceaad295.png",
     "static/media/bean_baby.png": "/static/media/bean_baby.dc31d0cb72a989a69132.png",
     "static/media/Community_Feature.mp4": "/static/media/Community_Feature.0d436a3b6932b909a365.mp4",
@@ -23,7 +22,6 @@
     "static/media/eduEats4.png": "/static/media/eduEats4.6e3e51ae8d67bec5baae.png",
     "static/media/furfamily1.png": "/static/media/furfamily1.486ff8420131e2e7f375.png",
     "static/media/eduEats1.png": "/static/media/eduEats1.56dafd26f557633cc7ef.png",
-    "static/media/ee_moodboard.png": "/static/media/ee_moodboard.fcf1b063b1bdca11917f.png",
     "static/media/furfamily3.png": "/static/media/furfamily3.dd2e7850256ac16b9932.png",
     "static/media/ee_affinitydiagram.png": "/static/media/ee_affinitydiagram.c925655170df42fc6143.png",
     "static/media/Support_Feature.mp4": "/static/media/Support_Feature.1e87d2b7cb2a4309c993.mp4",
@@ -75,11 +73,11 @@
     "static/media/logo.svg": "/static/media/logo.e46266be4b05bcd3dcaee5eed1310c48.svg",
     "index.html": "/index.html",
     "main.d8d25570.css.map": "/static/css/main.d8d25570.css.map",
-    "main.33ce2c9d.js.map": "/static/js/main.33ce2c9d.js.map",
+    "main.508e6603.js.map": "/static/js/main.508e6603.js.map",
     "488.a77142c3.chunk.js.map": "/static/js/488.a77142c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8d25570.css",
-    "static/js/main.33ce2c9d.js"
+    "static/js/main.508e6603.js"
   ]
 }

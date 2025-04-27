@@ -317,9 +317,6 @@ const ShopShare = () => {
             <Container>
               <h2 className="proj-section-header">04. The Solution</h2>
               <div className="project-section-margins">
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Problem Statement</h5>
-                <div>When college students struggle to manage groceries for themselves or their roommates, they need a simple and collaborative solution to organize shared lists, accommodate dietary needs, and minimize food waste effectively.
-                </div>  
 
                 <h5 class="feature-title">Dietary Restrictions</h5>
                 <div className="two-column-section">

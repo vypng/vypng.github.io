@@ -798,8 +798,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-image: url('assets/img/chatbox12.png');
 }
 
+.chatbox.thirteenth {
+  align-self: flex-start;
+  background-image: url('assets/img/chatbox13.png');
+}
+
+.chatbox.fourteenth {
+  align-self: flex-end;
+  text-align: right;
+  background-position: right;   
+  background-image: url('assets/img/chatbox14.png');
+}
+
+.chatbox.fifteenth {
+  align-self: flex-start;
+  background-image: url('assets/img/chatbox15.png');
+}
+
 .chatbox-image {
-  width: 100%; /* Ensure image fits within the chatbox */
+  width: 100%;
   display: block;
 }
 
