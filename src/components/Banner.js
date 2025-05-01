@@ -2,8 +2,25 @@ import { Container, Button } from "react-bootstrap";
 import arrow1 from "../assets/img/arrow1.png";
 import arrow2 from "../assets/img/arrow2.png";
 import externallink from "../assets/img/external-link.png";
+import { useNavigate, useLocation } from "react-router-dom";
+import { useContext } from "react";
+import { ScrollContext } from "../App";
 
 export const Banner = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const { setScrollTarget } = useContext(ScrollContext);
+
+  const handleScrollTo = (hash) => {
+    if (location.pathname !== "/") {
+      setScrollTarget(hash);
+      navigate("/");
+    } else {
+      const el = document.querySelector(hash);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const headingStyle = {
     color: "#1C2B54",
     fontSize: "clamp(3rem, 7vw, 6rem)",
@@ -53,10 +70,10 @@ export const Banner = () => {
             <p style={subtitleStyle}>ui/ux designer</p>
           </div>
           <div style={buttonContainerStyle}>
-            <Button href="#about" className="custom-button">
+            <Button onClick={() => handleScrollTo("#about")} className="custom-button">
               about
             </Button>
-            <Button href="#projects" className="custom-button">
+            <Button onClick={() => handleScrollTo("#projects")} className="custom-button">
               projects
             </Button>
             <Button
