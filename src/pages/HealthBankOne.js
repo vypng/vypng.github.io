@@ -100,8 +100,8 @@ const HealthBankOne = () => {
               <div className="skills">
                 <h5 className="project-subheading">SKILLS</h5>
                 <p className="project-text">Product Design</p>
-                <p className="project-text">User Research</p>
                 <p className="project-text">Prototyping</p>
+                <p className="project-text">User Research</p>
               </div>
             </Col>
           </Row>
@@ -231,7 +231,7 @@ const HealthBankOne = () => {
                 <p className="center-details">
                   They help their users, particularly <span> </span>
                   <span className="highlight"><span className="bold-highlight" style={{color:"#1E88A2"}}>middle-aged women</span></span>
-                  , gain control of their medical records by developing a patient-controlled information system, one in which their records are consolidated and in which they control when and where their info is shared. However, users tend to leave the app immediately after obtaining their records. <span> </span>
+                  , gain control of their medical records by developing a patient-controlled information system, one in which their records are consolidated and in which they control when and where their info is shared. However, the app struggles to maintain consistent user engagement. <span> </span>
                 </p>
                 <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>The Challenge</h5>
                 <div>How will we drive habitual use of the Health Bank One app and push its perception as an essential tool for managing one's health?

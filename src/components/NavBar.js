@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useNavigate, useLocation } from "react-router-dom";
+import { ScrollContext } from "../App";
 import logo from "../assets/img/logo.svg";
 import externallink from "../assets/img/external-link.png";
 
@@ -9,6 +10,7 @@ export const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
+  const { setScrollTarget } = useContext(ScrollContext);
 
   useEffect(() => {
     if (location.hash) {
@@ -33,14 +35,15 @@ export const NavBar = () => {
   }, []);
 
   const handleNavigation = (hash) => {
-    const section = document.querySelector(hash);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+    if (location.pathname !== "/") {
+      setScrollTarget(hash);
+      navigate("/");
     } else {
-      navigate(hash);
+      const el = document.querySelector(hash);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
     }
   };
-
+  
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   };
@@ -62,7 +65,7 @@ export const NavBar = () => {
           <Nav className="ms-auto text-end">
             {/* About Section */}
             <Nav.Link
-              href="/#about"
+              as="button"
               className={
                 activeLink === "about" ? "active navbar-link" : "navbar-link"
               }
@@ -73,7 +76,7 @@ export const NavBar = () => {
 
             {/* Projects Section */}
             <Nav.Link
-              href="/#projects"
+              as="button"
               className={
                 activeLink === "projects"
                   ? "active navbar-link"
