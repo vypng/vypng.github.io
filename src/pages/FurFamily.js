@@ -49,6 +49,14 @@ const FurFamily = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const scrollToSection = (hash) => {
+    const element = document.querySelector(hash);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
   const handleMouseDown = (e) => {
     setIsDragging(true);
     setStartX(e.clientX);
@@ -168,23 +176,23 @@ const FurFamily = () => {
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
                         <span className="toc-number">1</span> 
-                        <a href="#inspiration" className="toc-section">The Inspiration</a>
+                        <button  onClick={() => scrollToSection("#inspiration")} className="toc-section">The Inspiration</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">2</span> 
-                        <a href="#research" className="toc-section">Research</a>
+                        <button  onClick={() => scrollToSection("#research")} className="toc-section">Research</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">3</span> 
-                        <a href="#designing" className="toc-section">Designing</a>
+                        <button  onClick={() => scrollToSection("#designing")} className="toc-section">Designing</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">4</span> 
-                        <a href="#solution" className="toc-section">The Solution</a>
+                        <button  onClick={() => scrollToSection("#solution")} className="toc-section">The Solution</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">5</span> 
-                        <a href="#final-product" className="toc-section">Final Product</a>
+                        <button  onClick={() => scrollToSection("#final-product")} className="toc-section">Final Product</button>
                     </li>
                 </ul>
             </Col>
@@ -198,23 +206,23 @@ const FurFamily = () => {
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
                         <span className="toc-number">1</span> 
-                        <a href="#inspiration" className="toc-section">The Inspiration</a>
+                        <button  onClick={() => scrollToSection("#inspiration")} className="toc-section">The Inspiration</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">2</span> 
-                        <a href="#research" className="toc-section">Research</a>
+                        <button  onClick={() => scrollToSection("#research")} className="toc-section">Research</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">3</span> 
-                        <a href="#designing" className="toc-section">Designing</a>
+                        <button  onClick={() => scrollToSection("#designing")} className="toc-section">Designing</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">4</span> 
-                        <a href="#solution" className="toc-section">The Solution</a>
+                        <button  onClick={() => scrollToSection("#solution")} className="toc-section">The Solution</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">5</span> 
-                        <a href="#final-product" className="toc-section">Final Product</a>
+                        <button  onClick={() => scrollToSection("#final-product")} className="toc-section">Final Product</button>
                     </li>
                 </ul>
             </Col>
@@ -329,11 +337,6 @@ const FurFamily = () => {
             <Container>
               <h2 className="proj-section-header">03. Designing</h2>
               <div className="project-section-margins">
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Wireframing</h5>
-                <div>I used a rough set of wireframes to perform usability testing.
-                <img src={Wireframes} style={{marginTop: "30px"}} alt="Wireframes used for usability testing"/>
-                <p className="description-text">Low-fidelity wireframes used for usability testing.</p>
-                </div>
 
                 <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "130px"}}>Testing</h5>
                 <div>I asked two students to test my app and observed as they performed certain tasks.

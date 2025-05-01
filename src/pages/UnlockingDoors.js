@@ -35,6 +35,14 @@ const UnlockingDoors = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const scrollToSection = (hash) => {
+    const element = document.querySelector(hash);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
   // Handle mouse down event to start dragging
   const handleMouseDown = (e) => {
     setIsDragging(true);
@@ -158,23 +166,23 @@ const UnlockingDoors = () => {
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
                         <span className="toc-number">1</span> 
-                        <a href="#issue" className="toc-section">The Issue</a>
+                        <button  onClick={() => scrollToSection("#issue")} className="toc-section">The Issue</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">2</span> 
-                        <a href="#requirements" className="toc-section">Requirements</a>
+                        <button  onClick={() => scrollToSection("#requirements")} className="toc-section">Requirements</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">3</span> 
-                        <a href="#design" className="toc-section">Design</a>
+                        <button  onClick={() => scrollToSection("#design")} className="toc-section">Design</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">4</span> 
-                        <a href="#solution" className="toc-section">The Solution</a>
+                        <button  onClick={() => scrollToSection("#solution")} className="toc-section">The Solution</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">5</span> 
-                        <a href="#final-product" className="toc-section">Final Product</a>
+                        <button  onClick={() => scrollToSection("#final-product")} className="toc-section">Final Product</button>
                     </li>
                 </ul>
             </Col>
@@ -188,23 +196,23 @@ const UnlockingDoors = () => {
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
                         <span className="toc-number">1</span> 
-                        <a href="#issue" className="toc-section">The Issue</a>
+                        <button  onClick={() => scrollToSection("#issue")} className="toc-section">The Issue</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">2</span> 
-                        <a href="#requirements" className="toc-section">Requirements</a>
+                        <button  onClick={() => scrollToSection("#requirements")} className="toc-section">Requirements</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">3</span> 
-                        <a href="#design" className="toc-section">Design</a>
+                        <button  onClick={() => scrollToSection("#design")} className="toc-section">Design</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">4</span> 
-                        <a href="#solution" className="toc-section">The Solution</a>
+                        <button  onClick={() => scrollToSection("#solution")} className="toc-section">The Solution</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">5</span> 
-                        <a href="#final-product" className="toc-section">Final Product</a>
+                        <button  onClick={() => scrollToSection("#final-product")} className="toc-section">Final Product</button>
                     </li>
                 </ul>
             </Col>

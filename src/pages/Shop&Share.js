@@ -36,6 +36,14 @@ const ShopShare = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const scrollToSection = (hash) => {
+    const element = document.querySelector(hash);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
   const handleMouseDown = (e) => {
     setIsDragging(true);
     setStartX(e.clientX);
@@ -156,23 +164,23 @@ const ShopShare = () => {
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
                         <span className="toc-number">1</span> 
-                        <a href="#problem" className="toc-section">The Problem</a>
+                        <button  onClick={() => scrollToSection("#problem")} className="toc-section">The Problem</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">2</span> 
-                        <a href="#research" className="toc-section">Research</a>
+                        <button  onClick={() => scrollToSection("#research")} className="toc-section">Research</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">3</span> 
-                        <a href="#designing" className="toc-section">Designing</a>
+                        <button  onClick={() => scrollToSection("#designing")} className="toc-section">Designing</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">4</span> 
-                        <a href="#solution" className="toc-section">The Solution</a>
+                        <button  onClick={() => scrollToSection("#solution")} className="toc-section">The Solution</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">5</span> 
-                        <a href="#final-product" className="toc-section">Final Product</a>
+                        <button  onClick={() => scrollToSection("#final-product")} className="toc-section">Final Product</button>
                     </li>
                 </ul>
             </Col>
@@ -186,23 +194,23 @@ const ShopShare = () => {
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
                         <span className="toc-number">1</span> 
-                        <a href="#problem" className="toc-section">The Problem</a>
+                        <button  onClick={() => scrollToSection("#problem")} className="toc-section">The Problem</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">2</span> 
-                        <a href="#research" className="toc-section">Research</a>
+                        <button  onClick={() => scrollToSection("#research")} className="toc-section">Research</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">3</span> 
-                        <a href="#designing" className="toc-section">Designing</a>
+                        <button  onClick={() => scrollToSection("#designing")} className="toc-section">Designing</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">4</span> 
-                        <a href="#solution" className="toc-section">The Solution</a>
+                        <button  onClick={() => scrollToSection("#solution")} className="toc-section">The Solution</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">5</span> 
-                        <a href="#final-product" className="toc-section">Final Product</a>
+                        <button  onClick={() => scrollToSection("#final-product")} className="toc-section">Final Product</button>
                     </li>
                 </ul>
             </Col>

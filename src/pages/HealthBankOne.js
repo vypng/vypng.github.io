@@ -41,6 +41,14 @@ const HealthBankOne = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const scrollToSection = (hash) => {
+    const element = document.querySelector(hash);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  
+
   // Handle mouse down event to start dragging
   const handleMouseDown = (e) => {
     setIsDragging(true);
@@ -168,23 +176,23 @@ const HealthBankOne = () => {
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
                         <span className="toc-number">1</span> 
-                        <a href="#area-of-concern" className="toc-section">The Issue</a>
+                        <button  onClick={() => scrollToSection("#issue")} className="toc-section">The Issue</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">2</span> 
-                        <a href="#research" className="toc-section">Research</a>
+                        <button onClick={() => scrollToSection("#research")} className="toc-section">Research</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">3</span> 
-                        <a href="#ideation-design" className="toc-section">Ideation & Design</a>
+                        <button onClick={() => scrollToSection("#ideation-design")} className="toc-section">Ideation & Design</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">4</span> 
-                        <a href="#solution" className="toc-section">The Solution</a>
+                        <button onClick={() => scrollToSection("#solution")} className="toc-section">The Solution</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">5</span> 
-                        <a href="#final-product" className="toc-section">Final Product</a>
+                        <button onClick={() => scrollToSection("#final-product")} className="toc-section">Final Product</button>
                     </li>
                 </ul>
             </Col>
@@ -198,23 +206,23 @@ const HealthBankOne = () => {
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
                         <span className="toc-number">1</span> 
-                        <a href="#issue" className="toc-section">The Issue</a>
+                        <button  onClick={() => scrollToSection("#issue")} className="toc-section">The Issue</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">2</span> 
-                        <a href="#research" className="toc-section">Research</a>
+                        <button onClick={() => scrollToSection("#research")} className="toc-section">Research</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">3</span> 
-                        <a href="#ideation-design" className="toc-section">Ideation & Design</a>
+                        <button onClick={() => scrollToSection("#ideation-design")} className="toc-section">Ideation & Design</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">4</span> 
-                        <a href="#solution" className="toc-section">The Solution</a>
+                        <button onClick={() => scrollToSection("#solution")} className="toc-section">The Solution</button>
                     </li>
                     <li className="toc-item">
                         <span className="toc-number">5</span> 
-                        <a href="#final-product" className="toc-section">Final Product</a>
+                        <button onClick={() => scrollToSection("#final-product")} className="toc-section">Final Product</button>
                     </li>
                 </ul>
             </Col>
