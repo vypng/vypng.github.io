@@ -101,7 +101,6 @@ const HealthBankOne = () => {
                 <h5 className="project-subheading">SKILLS</h5>
                 <p className="project-text">Product Design</p>
                 <p className="project-text">Prototyping</p>
-                <p className="project-text">User Research</p>
               </div>
             </Col>
           </Row>
@@ -246,7 +245,7 @@ const HealthBankOne = () => {
             <Container>
               <h2 className="proj-section-header">02. Research</h2>
               <div className="project-section-margins">
-                <p className="left-align-details">We first wanted to uncover the expectations, motivations, preferences, and any challenges users of the Health Bank One app may have. We narrowed down their target audience to middle-aged, proactive, and health-concerned women and began preliminary research.</p>
+                <p className="left-align-details">We first wanted to uncover the expectations, motivations, preferences, and any challenges users of the Health Bank One app may have. Our research team narrowed down their target audience to middle-aged, proactive, and health-concerned women, and I helped conduct preliminary research.</p>
                 <div className="idea" style={{backgroundColor:"#E0F0F8"}}>
                   <p>Despite facing major physical and mental health changes, women aged 40–60 often lack tools tailored to their unique needs. </p>
                   <div style={{paddingBottom: "20px", paddingLeft: "20px", paddingRight: "20px"}}>
@@ -271,10 +270,10 @@ const HealthBankOne = () => {
                     </div>
                 </div>
 
-                <p style={{marginTop: "150px", marginBottom: "40px"}}>We continued our research by surveying 75+ women and interviewing 5 of them.</p>
-                <img style={{marginTop: "80px", height: "300px", width: "auto", display: "block", marginLeft: "auto", marginRight: "auto"}} src={SurveyData} alt="Survey data"/>
+                <p style={{marginTop: "150px", marginBottom: "40px"}}>We continued our research by surveying 75+ women. Additionally, we conducted five user interviews, with each team member speaking to one individual representative of our target demographic.</p>
+                <img style={{marginTop: "80px", width: "70%", height: "auto", display: "block", marginLeft: "auto", marginRight: "auto"}} src={SurveyData} alt="Survey data"/>
                 <p className="description-text">Statistics gathered from survey.</p>
-                <img style={{marginTop: "80px", height: "300px", width: "auto", display: "block", marginLeft: "auto", marginRight: "auto"}} src={Interview1} alt="Statistics gathered from interviews"/>
+                <img style={{marginTop: "80px", width: "70%", height: "auto", display: "block", marginLeft: "auto", marginRight: "auto"}} src={Interview1} alt="Statistics gathered from interviews"/>
                 <p className="description-text">Statistics gathered from interviews.</p>
 
 
