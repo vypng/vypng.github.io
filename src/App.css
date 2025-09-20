@@ -370,6 +370,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .project-card {
   margin-bottom: 2rem;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .project-title {
