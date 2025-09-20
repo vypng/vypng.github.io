@@ -94,7 +94,7 @@ export const NavBar = () => {
               rel="noopener noreferrer"
               className="navbar-link d-inline-flex align-items-center justify-content-center"
             >
-              <span>resumé</span>
+              <span>résumé</span>
               <img 
                 src={externallink} 
                 alt="External link icon" 
