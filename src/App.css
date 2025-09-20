@@ -367,17 +367,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 2.5rem;
   }
 }
+
+.project-card {
+  margin-bottom: 2rem;
+}
+
 .project-title {
   font-size: 1.8rem;
+  color: rgb(25, 25, 25);
   font-family: 'Metropolis-Bold';
-  margin: 2vh 0 0 0;
+  margin: 3vh 0 2vh 0;
 }
 .project-description {
-  width: 80%;
   font-size: 1rem;
-  color: black;
+  color: rgb(117, 117, 117);
   margin: 0 auto 3vh auto;
-  letter-spacing: normal;
+  line-height: 25px;
+}
+.project-type {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgb(65, 65, 65);
+  margin: 0 auto 4vh auto;
 }
 .project .nav.nav-pills {
   width: 72%;

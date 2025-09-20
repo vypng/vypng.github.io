@@ -12,31 +12,36 @@ export const Projects = () => {
   const projects = [
     {
       title: "Health Bank One",
-      description: "Helping patients gain control of their medical records.",
+      description: "Redesigning a patient-controlled health record app to increase consistent engagement and establish it as an essential tool for managing personal health.",
+      type: "Capstone project ∙ 2025",
       imgUrl: HealthBankOne,
       link: "/health-bank-one",
     },
     {
       title: "eduEats",
-      description: "Student-focused app that combats food insecurity.",
+      description: "Designing a student-focused app that helps food-insecure college students access support and resources, tackling hunger on campus with a practical, easy-to-use solution.",
+      type: "Design research project ∙ 2024",
       imgUrl: eduEats,
       link: "/EduEats",
     },
     {
       title: "furfamily",
-      description: "Pet care app designed to help families train and track their pets.",
+      description: "Creating a pet care app that helps new pet owners access guidance, track their pets’ needs, and reduce surrender rates, especially for pandemic-era adoptions.",
+      type: "Interaction design project ∙ 2024",
       imgUrl: furfamily,
       link: "/FurFamily",
     },
     {
       title: "Unlocking Doors",
-      description: "Redesigning a database to help reintegrate former offenders.",
+      description: "Redesigning a nonprofit database to streamline information access, improve usability, and create a modern, visually appealing interface that aligns with the organization’s branding.",
+      type: "Engineering project in community service ∙ 2023",
       imgUrl: UnlockingDoors,
       link: "/unlocking-doors",
     },
     {
       title: "Shop&Share",
-      description: "Create and share grocery lists while tracking allergies and preferences.",
+      description: "Designing a shared grocery app that helps households and roommates manage lists, track dietary needs, and reduce food waste with smart reminders and intuitive features.",
+      type: "Extracurricular project ∙ 2022",
       imgUrl: ShopShare,
       link: "/shop-share",
     },
@@ -53,8 +58,8 @@ export const Projects = () => {
                   <h2>projects</h2>
                   <Row className="g-3 justify-content-center">
                     {projects.map((project, index) => (
-                      <Col key={index} xs={12} sm={6} md={5}>
-                        <div style={{ textAlign: "center", padding: "10px" }}>
+                    <Col key={index} xs={12} sm={6} md={5} className="project-card mb-4">
+                        <div style={{ textAlign: "left", padding: "10px" }}>
                           <Link
                             to={project.link}
                             style={{ textDecoration: "none", color: "inherit" }}
@@ -69,10 +74,15 @@ export const Projects = () => {
                             >
                               {project.title}
                             </h5>
-                            <p
+                            <p style={{ textAlign: "left" }}
                               className="project-description"
                             >
                               {project.description}
+                            </p>
+                            <p style={{ textAlign: "left" }}
+                              className="project-type"
+                            >
+                              {project.type}
                             </p>
                           </Link>
                         </div>
