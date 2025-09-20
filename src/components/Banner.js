@@ -1,6 +1,4 @@
 import { Container, Button } from "react-bootstrap";
-import arrow1 from "../assets/img/arrow1.png";
-import arrow2 from "../assets/img/arrow2.png";
 import externallink from "../assets/img/external-link.png";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useContext } from "react";
@@ -59,7 +57,6 @@ export const Banner = () => {
 
   return (
     <section className="banner" id="home" style={containerStyle}>
-      <img className="background-image-left" src={arrow1} alt="Decorative arrow" />
       <Container>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <div style={{width: "33vw"}}>
@@ -92,7 +89,6 @@ export const Banner = () => {
           </div>
         </div>
       </Container>
-      <img className="background-image-right" src={arrow2} alt="Decorative arrow" />
     </section>
   );
 };
