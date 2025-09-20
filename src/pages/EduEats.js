@@ -164,7 +164,7 @@ const EduEats = () => {
             <Col md={3} style={{ paddingTop: "130px", paddingLeft: "70px", position: "relative", width: "20%"}} className="d-none d-md-block">
                 <h5 style={{ display: "flex", alignItems: "center" }}>
                     <img src={TOC} alt="Table of Contents" className="toc-img" />
-                    <div style={{ fontFamily: "Metropolis-Bold" }}>Table of Contents</div>
+                    <div style={{ fontFamily: "manrope-bold" }}>Table of Contents</div>
                 </h5>
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
@@ -194,7 +194,7 @@ const EduEats = () => {
             <Col xs={12} className="d-block d-md-none" style={{ marginTop: "100px" }}>
                 <h5 style={{ display: "flex", alignItems: "center" }}>
                   <img src={TOC} alt="Table of Contents" className="toc-img" />
-                  <div style={{ fontFamily: "Metropolis-Bold" }}>Table of Contents</div>        
+                  <div style={{ fontFamily: "manrope-bold" }}>Table of Contents</div>        
                 </h5>
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
@@ -240,7 +240,7 @@ const EduEats = () => {
                     <strong style={{textDecoration: "underline"}}>a lot</strong> of hungry students!
                   </p>
                 </p>
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>The Challenge</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold"}}>The Challenge</h5>
                 <div>How will I design a product that helps food-insecure 
                   college students get the support that they need?
                 </div>
@@ -307,7 +307,7 @@ const EduEats = () => {
               <h2 className="proj-section-header">03. Ideation & Design</h2>
               <div className="project-section-margins">
 
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "130px"}}>Wireframes & Testing</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold", marginTop: "130px"}}>Wireframes & Testing</h5>
                 <div>Using a set of low-fidelity wireframes, I asked two students to test my app and observed as they performed certain tasks.
                 </div>
 
@@ -361,7 +361,7 @@ const EduEats = () => {
                 </div>
 
 
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "130px"}}>Brand Identity</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold", marginTop: "130px"}}>Brand Identity</h5>
                 <div>I wanted the app to have a fun yet professional look 
                   while maintaining the appearance of a health-focused app. 
                 </div>
@@ -427,7 +427,7 @@ const EduEats = () => {
                   </div>
                 </div>
 
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold", marginTop: "150px"}}>Platform Choice</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold", marginTop: "150px"}}>Platform Choice</h5>
                 <div>Why a mobile app? The features that users asked for, 
                   such as location services, would be more intuitive and 
                   user-friendly on a mobile device as opposed to a desktop 

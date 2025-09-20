@@ -161,7 +161,7 @@ const UnlockingDoors = () => {
             <Col md={3} style={{ paddingTop: "130px", paddingLeft: "70px", position: "relative", width: "20%"}} className="d-none d-md-block">
                 <h5 style={{ display: "flex", alignItems: "center" }}>
                     <img src={TOC} alt="Table of Contents" className="toc-img" />
-                    <div style={{ fontFamily: "Metropolis-Bold" }}>Table of Contents</div>
+                    <div style={{ fontFamily: "manrope-bold" }}>Table of Contents</div>
                 </h5>
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
@@ -191,7 +191,7 @@ const UnlockingDoors = () => {
             <Col xs={12} className="d-block d-md-none" style={{ marginTop: "100px" }}>
                 <h5 style={{ display: "flex", alignItems: "center" }}>
                   <img src={TOC} alt="Table of Contents" className="toc-img" />
-                  <div style={{ fontFamily: "Metropolis-Bold" }}>Table of Contents</div>        
+                  <div style={{ fontFamily: "manrope-bold" }}>Table of Contents</div>        
                 </h5>
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
@@ -238,7 +238,7 @@ const UnlockingDoors = () => {
 
                 </p>
 
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>The Challenge</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold"}}>The Challenge</h5>
                 <div>How will I redesign the database so that it organizes information intuitively, improves accessibility for workers, 
                     and creates a modern, visually appealing interface that aligns with the organization’s branding?
                 </div>
@@ -300,7 +300,7 @@ const UnlockingDoors = () => {
             <Container>
               <h2 className="proj-section-header">03. Design</h2>
               <div className="project-section-margins">
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Existing Branding</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold"}}>Existing Branding</h5>
                 <div>I viewed the Unlocking Doors website to gauge their branding style.
                 <img src={Website} style={{marginTop: "30px"}} alt="Unlocking Doors Website"/>
                 <p className="description-text">Images from the Unlocking Doors website.</p>
@@ -311,7 +311,7 @@ const UnlockingDoors = () => {
                 <img src={Branding} alt="Style guide including logos and brand colors" style={{marginTop: '30px'}}/>
                 <p className="description-text">Style guide for Unlocking Doors.</p>
 
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Design</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold"}}>Design</h5>
                 <div>I aligned items, organized information into three pages accessible in the upper bar, and used the brand's style guide to improve on the previous design.
                 <img src={Prototypes} style={{marginTop: "30px"}} alt="Unlocking Doors Website"/>
                 <p className="description-text">Prototypes presented to organization.</p>

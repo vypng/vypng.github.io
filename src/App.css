@@ -6,20 +6,20 @@
 }
 
 @font-face {
-  font-family: Metropolis;
-  src: url('./assets/fonts/Metropolis-Regular.otf');
+  font-family: manrope;
+  src: url('./assets/fonts/manrope-regular.otf');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: Metropolis-Bold;
-  src: url('./assets/fonts/Metropolis-Bold.otf');
+  font-family: manrope-bold;
+  src: url('./assets/fonts/manrope-bold.otf');
   font-weight: 700;
 }
 
 @font-face {
-  font-family: Metropolis-Med;
-  src: url('./assets/fonts/Metropolis-Medium.otf');
+  font-family: manrope-Med;
+  src: url('./assets/fonts/manrope-medium.otf');
   font-weight: 500;
 }
 
@@ -41,7 +41,7 @@ body {
   position: relative;
   background-color: #F9F7FA !important;
   color: black !important;
-  font-family: 'Metropolis', sans-serif !important;
+  font-family: 'manrope', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -377,7 +377,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project-title {
   font-size: 1.8rem;
   color: rgb(25, 25, 25);
-  font-family: 'Metropolis-Bold';
+  font-family: 'manrope-bold';
   margin: 3vh 0 2vh 0;
 }
 .project-description {
@@ -547,7 +547,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project-main-title {
-  font-family: 'Metropolis-Bold';
+  font-family: 'manrope-bold';
   margin-top: 20px;
 }
 
@@ -633,7 +633,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-section-header {
-  font-family: "Metropolis-Bold";
+  font-family: "manrope-bold";
 }
 
 .center-details {
@@ -697,7 +697,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .bold-highlight {
-  font-family: "Metropolis-Bold"; /* Make the text bold */
+  font-family: "manrope-bold"; /* Make the text bold */
 }
 
 
@@ -878,7 +878,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .label {
-  font-family: "Metropolis-Bold";
+  font-family: "manrope-bold";
   margin-bottom: 5px;
 }
 
@@ -944,7 +944,7 @@ video {
 .centered-text h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  font-family: "Metropolis-Bold"; /* Replace with your font */
+  font-family: "manrope-bold"; /* Replace with your font */
 }
 
 .centered-text p {
@@ -954,7 +954,7 @@ video {
 
 
 .feature-title {
-  font-family: "Metropolis-Bold";
+  font-family: "manrope-bold";
   margin-top: 150px;
   margin-bottom: 30px;
   font-size: 27px;

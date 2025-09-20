@@ -159,7 +159,7 @@ const ShopShare = () => {
             <Col md={3} style={{ paddingTop: "130px", paddingLeft: "70px", position: "relative", width: "20%"}} className="d-none d-md-block">
                 <h5 style={{ display: "flex", alignItems: "center" }}>
                     <img src={TOC} alt="Table of Contents" className="toc-img" />
-                    <div style={{ fontFamily: "Metropolis-Bold" }}>Table of Contents</div>
+                    <div style={{ fontFamily: "manrope-bold" }}>Table of Contents</div>
                 </h5>
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
@@ -189,7 +189,7 @@ const ShopShare = () => {
             <Col xs={12} className="d-block d-md-none" style={{ marginTop: "100px" }}>
                 <h5 style={{ display: "flex", alignItems: "center" }}>
                   <img src={TOC} alt="Table of Contents" className="toc-img" />
-                  <div style={{ fontFamily: "Metropolis-Bold" }}>Table of Contents</div>        
+                  <div style={{ fontFamily: "manrope-bold" }}>Table of Contents</div>        
                 </h5>
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
@@ -231,7 +231,7 @@ const ShopShare = () => {
                   with expiration reminders.
                 </p>
                  
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>The Challenge</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold"}}>The Challenge</h5>
                 <div>How will I design an app that simplifies grocery management, accommodates dietary needs, and reduces food waste for households and roommates?
                 </div>
               </div>
@@ -294,7 +294,7 @@ const ShopShare = () => {
               <h2 className="proj-section-header">03. Designing</h2>
               <div className="project-section-margins">
 
-              <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Wireframes</h5>
+              <h5 className="left-align-details" style={{fontFamily: "manrope-bold"}}>Wireframes</h5>
                 <div>I first created a basic user flow and sketched out wireframes.
                 <img src={UserFlow} style={{marginTop: "30px"}} alt="User Flow for Shop&Share"/>
                 <p className="description-text">User Flow for Shop&Share.</p>
@@ -302,14 +302,14 @@ const ShopShare = () => {
                 <p className="description-text">Wireframes for Shop&Share.</p>
                 </div>
 
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Moodboard</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold"}}>Moodboard</h5>
                 <div>I then compiled a moodboard for our app. Our team decided on black, purple, and white as our color palette to create a modern, inviting, and visually appealing interface.
                 <img src={Moodboard} style={{marginTop: "30px"}} alt="Moodboard for Shop&Share"/>
                 <p className="description-text">Moodboard for Shop&Share.</p>
                 </div>
 
 
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>High-Res Designs</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold"}}>High-Res Designs</h5>
                 <div>Based on feedback from our team lead and mentor, I developed the final, high-res designs for Shop&Share.</div>
                 <img src={HighRes} alt="High-Res designs" style={{marginTop: '30px'}}/>
                 <p className="description-text">High-res designs.</p>

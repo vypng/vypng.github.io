@@ -171,7 +171,7 @@ const HealthBankOne = () => {
             <Col md={3} style={{ paddingTop: "130px", paddingLeft: "70px", position: "relative", width: "20%"}} className="d-none d-md-block">
                 <h5 style={{ display: "flex", alignItems: "center" }}>
                     <img src={TOC} alt="Table of Contents" className="toc-img" />
-                    <div style={{ fontFamily: "Metropolis-Bold" }}>Table of Contents</div>
+                    <div style={{ fontFamily: "manrope-bold" }}>Table of Contents</div>
                 </h5>
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
@@ -201,7 +201,7 @@ const HealthBankOne = () => {
             <Col xs={12} className="d-block d-md-none" style={{ marginTop: "100px" }}>
                 <h5 style={{ display: "flex", alignItems: "center" }}>
                   <img src={TOC} alt="Table of Contents" className="toc-img" />
-                  <div style={{ fontFamily: "Metropolis-Bold" }}>Table of Contents</div>        
+                  <div style={{ fontFamily: "manrope-bold" }}>Table of Contents</div>        
                 </h5>
                 <ul className='toc-list'>
                     <li style={{ borderTop: "2px solid #BEBCBE"}} className="toc-item">
@@ -240,7 +240,7 @@ const HealthBankOne = () => {
                   <span className="highlight"><span className="bold-highlight" style={{color:"#1E88A2"}}>middle-aged women</span></span>
                   , gain control of their medical records by developing a patient-controlled information system, one in which their records are consolidated and in which they control when and where their info is shared. However, the app struggles to maintain consistent user engagement. <span> </span>
                 </p>
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>The Challenge</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold"}}>The Challenge</h5>
                 <div>How will we drive habitual use of the Health Bank One app and push its perception as an essential tool for managing one's health?
                 </div>
               </div>
@@ -309,7 +309,7 @@ const HealthBankOne = () => {
               <div className="project-section-margins">
 
 
-                <h5 className="left-align-details" style={{fontFamily: "Metropolis-Bold"}}>Brand Identity</h5>
+                <h5 className="left-align-details" style={{fontFamily: "manrope-bold"}}>Brand Identity</h5>
                 <div>We rebranded to create a more welcoming and trustworthy experience. Updates like a calmer teal palette, a fingerprint logo, intuitive navigation, and renaming our AI to “Care Bot” help the app feel more personal, secure, and user-friendly. 
                 </div>
                 <img src={Branding} alt="Style guide including logos and brand colors" style={{marginTop: '30px'}}/>
