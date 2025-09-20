@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9aeb69fd.css",
-    "main.js": "/static/js/main.366f356b.js",
+    "main.js": "/static/js/main.da351654.js",
     "static/js/488.a77142c3.chunk.js": "/static/js/488.a77142c3.chunk.js",
     "static/media/HealthBankOne.mp4": "/static/media/HealthBankOne.59b72a67e0b4b759cc45.mp4",
     "static/media/furfamily.mp4": "/static/media/furfamily.6f5df5940b12b43dbedf.mp4",
@@ -88,11 +88,11 @@
     "index.html": "/index.html",
     "static/media/logo.svg": "/static/media/logo.4e9b88c8cf2fe1081b094716846aeb47.svg",
     "main.9aeb69fd.css.map": "/static/css/main.9aeb69fd.css.map",
-    "main.366f356b.js.map": "/static/js/main.366f356b.js.map",
+    "main.da351654.js.map": "/static/js/main.da351654.js.map",
     "488.a77142c3.chunk.js.map": "/static/js/488.a77142c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9aeb69fd.css",
-    "static/js/main.366f356b.js"
+    "static/js/main.da351654.js"
   ]
 }
