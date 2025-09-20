@@ -80,8 +80,9 @@ export const Banner = () => {
               href="https://drive.google.com/file/d/1--gvaEWg9NYi95c94mAqWf7UTo3Za1Eo/view?usp=sharing"
               target="_blank"
               className="custom-button"
+              style={{ fontWeight: "bold" }}
             >
-              resumé
+              résumé
               <img
                 src={externallink}
                 alt="External link icon"

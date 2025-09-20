@@ -1,13 +1,32 @@
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} sm={6}>
+          <Col size={12} sm={6} className="text-center text-sm-start">
+              <div
+                className="social-icons-reverse"
+                  style={{
+                    marginTop: "3.5rem"
+                  }}
+                >   
+              <p>
+                Contact me!
+                <br />
+                <FaEnvelope
+                  style={{
+                    marginRight: "8px",
+                    verticalAlign: "middle",
+                    fontSize: "1.2rem",
+                  }}
+                />                
+                vypnguyen2003@gmail.com
+              </p>
+              </div>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
                   <div
@@ -41,7 +60,6 @@ export const Footer = () => {
                       <FaGithub />
                     </a>
                 </div>
-            <p>Thanks for stopping by! ♡</p>
           </Col>
         </Row>
       </Container>

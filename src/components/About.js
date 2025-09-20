@@ -53,17 +53,15 @@ export const About = () => {
                 <div className="col-md-6 text-center">
                   <h2>about me</h2>
                   <p>
-                    I’m a senior at The University of Texas at Dallas studying
-                    Computer Science, earning my certificate in Applied Experience
-                    Design and Research! Leading the front-end team in all of my
-                    previous projects, I have always gravitated towards the design
-                    process and have always deeply valued the user.
+                    I’m a recent graduate from The University of Texas at Dallas with a Bachelors in
+                    Computer Science, earning certificates in Figma and Applied Experience
+                    Design and Research!
                   </p>
                   <p>
-                    My coursework includes classes like Design Research Methods,
-                    Interaction Design, and Topics in Design. Outside of academics, I
-                    enjoy creating and viewing traditional and digital art, playing
-                    video games, and spending time with my beagle!
+                    Being artistically inclined since childhood and leading the front-end team in all of my
+                    previous projects, I have always gravitated towards the design process and have always deeply valued the user.
+                    Outside of work, I enjoy creating and viewing traditional and 
+                    digital art, playing video games, and spending time with my beagle!
                   </p>
                   {/* Social Icons */}
                   <div

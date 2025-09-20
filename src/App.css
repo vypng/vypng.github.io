@@ -109,15 +109,15 @@ nav.navbar a.navbar-brand {
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-family: 'Pally', sans-serif;
   font-weight: 800;
-  color: #1C2B54 !important;
+  color: #1C2B54;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 20px;
   opacity: 0.75;
 }
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-    opacity: 1;
+nav.navbar .navbar-nav .nav-link.navbar-link:hover {
+  opacity: 1;
+  color: #1C2B54 !important;
 }
 span.navbar-text {
     display: flex;
@@ -1165,8 +1165,9 @@ video {
 .footer p {
   font-weight: 400;
   font-size: 14px;
-  color: #B8B8B8;
+  color: #585858;
   letter-spacing: 0.5px;
+  line-height: 20px;
   margin-top: 20px;
 }
 

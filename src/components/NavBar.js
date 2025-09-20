@@ -6,7 +6,7 @@ import logo from "../assets/img/logo.svg";
 import externallink from "../assets/img/external-link.png";
 
 export const NavBar = () => {
-  const [activeLink, setActiveLink] = useState("about");
+  const [activeLink, setActiveLink] = useState("");
   const [scrolled, setScrolled] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
@@ -92,13 +92,14 @@ export const NavBar = () => {
               href="https://drive.google.com/file/d/1--gvaEWg9NYi95c94mAqWf7UTo3Za1Eo/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
-              className="navbar-link"
+              className="navbar-link d-inline-flex align-items-center justify-content-center"
             >
-              resumé
+              <span>resumé</span>
               <img 
                 src={externallink} 
                 alt="External link icon" 
-                className="external-link-icon" 
+                className="external-link-icon ms-1" 
+                style={{ width: "14px", height: "14px" }}
               />
             </Nav.Link>
           </Nav>
