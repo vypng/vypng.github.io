@@ -276,13 +276,13 @@ const EduEats = () => {
                     Current interventions are not as effective as some would like.
                   </div>
                 </div>
-                <p style={{marginTop: "150px", marginBottom: "40px"}}>I also conducted interviews with four college students across the United States to gather sentiments regarding the issue.</p>
+                <p style={{marginTop: "150px", marginBottom: "40px"}}>I also conducted interviews with five college students across the United States to gather sentiments regarding the issue.</p>
                 <img src={AffinityDiagram} alt="Affinity diagram of quotes taken from interviews"/>
                 <p className="description-text">Affinity diagram of quotes taken from interviews.</p>
 
                 <p style={{marginTop: "150px", marginBottom: "40px"}}>For even more data, I sent out a survey to students with questions regarding their preferences for current tools and interventions.</p>
                 <img src={SurveyData} alt="Survey data"/>
-                <p className="description-text">26 students rated each feature on a scale from 1-10, 1 being least valuable and 10 being most valuable.</p>
+                <p className="description-text">26 students rated each tool on a scale from 1-10, 1 being least valuable and 10 being most valuable.</p>
 
                 <p style={{marginTop: "150px", marginBottom: "40px"}}>My research gave me key insights about what my users would need!</p>
                 <div class="chat-container">
